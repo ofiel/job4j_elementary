@@ -6,6 +6,7 @@ public class RectangleArea {
         double l = h * k;
         double result = l * h;
         return result;
+
     }
 
     public static void main(String[] args) {
