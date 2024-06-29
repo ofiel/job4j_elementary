@@ -1,13 +1,18 @@
 package ru.job4j.calculator;
 
 public class Fit {
+
+    private static final double COEFFICIENT = 1.15;
+    private static final int MAN_BASE_HEIGHT = 100;
+    private static final int WOMAN_BASE_HEIGHT = 110;
+
     public static double manWeight(short height) {
-        double result = (height - 100) * 1.15;
+        double result = (height - MAN_BASE_HEIGHT) * COEFFICIENT;
         return result;
     }
 
     public static double womanWeight(short height) {
-        double result = (height - 110) * 1.15;
+        double result = (height - WOMAN_BASE_HEIGHT) * COEFFICIENT;
         return result;
     }
 
