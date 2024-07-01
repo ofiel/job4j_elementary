@@ -39,7 +39,6 @@ class PointTest {
     }
 
     @Test
-
     void when510to1520then14Dot142() {
         double expected = 14.142;
         int x1 = 5;
