@@ -7,6 +7,7 @@ public class Max {
         System.out.println("max is " + result);
         return result;
     }
+
     public static void main(String[] args) {
     max(7, 5);
     max(0, 0);
