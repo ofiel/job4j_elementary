@@ -15,7 +15,6 @@ class RectangleAreaTest {
     }
 
     @Test
-
     void whenP6K2Square2() {
         int expected = 2;
         int p = 6;
@@ -25,7 +24,6 @@ class RectangleAreaTest {
     }
 
     @Test
-
     void whenP10K4Square4() {
         int expected = 4;
         int p = 10;
