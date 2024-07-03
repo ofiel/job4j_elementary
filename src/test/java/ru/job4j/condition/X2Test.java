@@ -1,5 +1,4 @@
 package ru.job4j.condition;
-
 import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
