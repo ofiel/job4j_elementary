@@ -17,9 +17,9 @@ class TurnTest {
 
     @Test
     void backNotEven() {
-        int[] array = {1, 3, 5, 7, 9};
+        int[] array = {1, 3, 5, 7, 9, 11};
         int[] result = Turn.back(array);
-        int[] expected = {9, 7, 5, 3, 1};
+        int[] expected = {11, 9, 7, 5, 3, 1};
         assertThat(result).containsExactly(expected);
     }
 }
